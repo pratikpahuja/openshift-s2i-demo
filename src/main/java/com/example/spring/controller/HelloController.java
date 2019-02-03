@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/hello")
 @RestController
 public class HelloController {
-	private static final String RESPONSE_TEXT = "Hello world from '%s': %d version 2.\n";
+	private static final String RESPONSE_TEXT = "Hello world from '%s': %d version 3.\n";
 	private int count = 0;
 	
 	@GetMapping
